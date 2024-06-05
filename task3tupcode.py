@@ -1,0 +1,31 @@
+f=('banana','apple','guva')
+print(f)
+print(type(f))
+print(len(f))
+print(f[0])
+a=(4j)
+print(type(a))
+b=tuple((1,2,3,4,5))
+print(b)
+print(b[0:4])
+print(b[:3])
+print(b[2:])
+print(b[-4:-1])
+print(b[-1])
+print('apple' in b)
+print('apple' not in b)
+c=list(b)
+print(c)
+c[4]=6
+print(c)
+d=tuple(c)
+print(d)
+for i in d:
+    print(i)
+e=b+d
+print(e)
+g=(10,20)
+h=g*2
+print(h)
+print(h.count(10))
+
